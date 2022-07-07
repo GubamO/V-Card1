@@ -1,0 +1,29 @@
+.page {background-color: 
+  #AF90A9;
+  font-family: sans-serif;
+
+}
+
+.imgsocial {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+
+}
+
+.becodelogo {display: flex;
+
+}
+
+.content {
+  display: flex;
+  background-color: #A05C7B;
+color: antiquewhite;
+flex-flow: column wrap;
+align-items: center;
+justify-content: space-around;
+
+
+
+
+}
