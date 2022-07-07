@@ -1,6 +1,10 @@
 .page {background-color: 
   #AF90A9;
   font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
 
 }
 
@@ -22,8 +26,16 @@ color: antiquewhite;
 flex-flow: column wrap;
 align-items: center;
 justify-content: space-around;
+text-align: center;
+font-size: 120%;
+letter-spacing: 2px;
+width: 400px ;
+border-radius: 1em;
+padding: 3% 10%;
 
 
+}
 
-
+.photomoi {
+  border-radius: 50%;
 }
