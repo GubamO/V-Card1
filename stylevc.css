@@ -1,27 +1,60 @@
 .page {background-color: 
   #AF90A9;
-  font-family: sans-serif;
   display: flex;
   align-items: center;
   flex-direction: column;
+  font-family: 'Outfit', sans-serif;
+
   
 
 }
 
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {color: black;
+opacity: 0.5;
+
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  margin-right: 9%;
+  gap: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  
+}
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+h2 {color: black;
+opacity: 0.5;
+
+}
+
+
+
 .imgsocial {
   display: flex;
   align-items: flex-start;
-  flex-direction: row-reverse;
+  flex-direction: column;
 
 }
 
-.becodelogo {display: flex;
-
-}
 
 .content {
   display: flex;
-  background-color: #A05C7B;
+  background-color: rgba(160, 92, 123, 0.5);
 color: antiquewhite;
 flex-flow: column wrap;
 align-items: center;
@@ -34,8 +67,22 @@ border-radius: 1em;
 padding: 3% 10%;
 
 
+
 }
 
 .photomoi {
   border-radius: 50%;
+
 }
+
+.login {
+  background: none;
+  border-radius: 1em;
+  font-size: larger;
+  border: 1px solid rgb(160, 92, 123) ;
+  color: rgb(160, 92, 123);
+  padding: 10px 15px;
+}
+
+
+ 
